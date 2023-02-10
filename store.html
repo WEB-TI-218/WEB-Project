@@ -72,7 +72,8 @@
 					<div class="col-md-6">
 						<div class="header-search">
 							<form>
-								<select class="input-select">
+																
+									<select class="input-select">
 									<option value="0">Все категории</option>
 									<option value="1">Седан</option>
 									<option value="1">Хэтчбэк</option>
@@ -80,6 +81,8 @@
 									<option value="1">Минивэн</option>
 									<option value="1">Кроссовер</option>
 								</select>
+							
+
 								<input class="input" placeholder="Найти в объявлениях">
 								<button class="search-btn">Поиск</button>
 							</form>
@@ -171,13 +174,11 @@
 				<div id="responsive-nav">
 					<!-- NAV -->
 					<ul class="main-nav nav navbar-nav">
-						<li class="active"><a href="#">Home</a></li>
-						<li><a href="#">Hot Deals</a></li>
-						<li><a href="#">Categories</a></li>
-						<li><a href="#">Laptops</a></li>
-						<li><a href="#">Smartphones</a></li>
-						<li><a href="#">Cameras</a></li>
-						<li><a href="#">Accessories</a></li>
+						<li><a href="index.html">Главная</a></li>
+						<li><a href="#">Горячие предложения</a></li>
+						<li class="active"><a href="store.html">Категории</a></li>
+						<li><a href="#">Аксессуары</a></li>
+						<li><a href="policy.html">Правила пользования</a></li>
 					</ul>
 					<!-- /NAV -->
 				</div>
@@ -195,10 +196,12 @@
 				<div class="row">
 					<div class="col-md-12">
 						<ul class="breadcrumb-tree">
-							<li><a href="#">Home</a></li>
-							<li><a href="#">All Categories</a></li>
+							<li><a href="index.html">Главная</a></li>
+							<li><a href="store.html">Категории</a></li>
+							<!-- 
 							<li><a href="#">Accessories</a></li>
 							<li class="active">Headphones (227,490 Results)</li>
+							-->
 						</ul>
 					</div>
 				</div>
@@ -218,14 +221,14 @@
 					<div id="aside" class="col-md-3">
 						<!-- aside Widget -->
 						<div class="aside">
-							<h3 class="aside-title">Categories</h3>
+							<h3 class="aside-title">Категории</h3>
 							<div class="checkbox-filter">
 
 								<div class="input-checkbox">
 									<input type="checkbox" id="category-1">
 									<label for="category-1">
 										<span></span>
-										Laptops
+										Бюджетные
 										<small>(120)</small>
 									</label>
 								</div>
@@ -234,7 +237,7 @@
 									<input type="checkbox" id="category-2">
 									<label for="category-2">
 										<span></span>
-										Smartphones
+										Популярные
 										<small>(740)</small>
 									</label>
 								</div>
@@ -243,7 +246,7 @@
 									<input type="checkbox" id="category-3">
 									<label for="category-3">
 										<span></span>
-										Cameras
+										Премиальные
 										<small>(1450)</small>
 									</label>
 								</div>
@@ -252,21 +255,21 @@
 									<input type="checkbox" id="category-4">
 									<label for="category-4">
 										<span></span>
-										Accessories
+										Электрокары
 										<small>(578)</small>
 									</label>
 								</div>
-
+								<!-- 
 								<div class="input-checkbox">
 									<input type="checkbox" id="category-5">
 									<label for="category-5">
 										<span></span>
-										Laptops
+										Минивэн
 										<small>(120)</small>
 									</label>
 								</div>
-
-								<div class="input-checkbox">
+								
+									<div class="input-checkbox">
 									<input type="checkbox" id="category-6">
 									<label for="category-6">
 										<span></span>
@@ -274,13 +277,16 @@
 										<small>(740)</small>
 									</label>
 								</div>
+								-->
 							</div>
 						</div>
+						
+
 						<!-- /aside Widget -->
 
 						<!-- aside Widget -->
 						<div class="aside">
-							<h3 class="aside-title">Price</h3>
+							<h3 class="aside-title">Цена</h3>
 							<div class="price-filter">
 								<div id="price-slider"></div>
 								<div class="input-number price-min">
@@ -300,45 +306,69 @@
 
 						<!-- aside Widget -->
 						<div class="aside">
-							<h3 class="aside-title">Brand</h3>
+							<h3 class="aside-title">Бренд</h3>
 							<div class="checkbox-filter">
 								<div class="input-checkbox">
 									<input type="checkbox" id="brand-1">
 									<label for="brand-1">
 										<span></span>
-										SAMSUNG
+										BMW
 										<small>(578)</small>
-									</label>
-								</div>
-								<div class="input-checkbox">
-									<input type="checkbox" id="brand-2">
-									<label for="brand-2">
-										<span></span>
-										LG
-										<small>(125)</small>
 									</label>
 								</div>
 								<div class="input-checkbox">
 									<input type="checkbox" id="brand-3">
 									<label for="brand-3">
 										<span></span>
-										SONY
+										Dacia
 										<small>(755)</small>
+									</label>
+								</div>
+								<div class="input-checkbox">
+									<input type="checkbox" id="brand-3">
+									<label for="brand-3">
+										<span></span>
+										Honda
+										<small>(755)</small>
+									</label>
+								</div>
+								<div class="input-checkbox">
+									<input type="checkbox" id="brand-2">
+									<label for="brand-2">
+										<span></span>
+										Mercedes-Benz
+										<small>(125)</small>
 									</label>
 								</div>
 								<div class="input-checkbox">
 									<input type="checkbox" id="brand-4">
 									<label for="brand-4">
 										<span></span>
-										SAMSUNG
+										Nissan
 										<small>(578)</small>
+									</label>
+								</div>
+								<div class="input-checkbox">
+									<input type="checkbox" id="brand-3">
+									<label for="brand-3">
+										<span></span>
+										Opel
+										<small>(755)</small>
+									</label>
+								</div>
+								<div class="input-checkbox">
+									<input type="checkbox" id="brand-3">
+									<label for="brand-3">
+										<span></span>
+										Renault
+										<small>(755)</small>
 									</label>
 								</div>
 								<div class="input-checkbox">
 									<input type="checkbox" id="brand-5">
 									<label for="brand-5">
 										<span></span>
-										LG
+										Tesla
 										<small>(125)</small>
 									</label>
 								</div>
@@ -346,7 +376,7 @@
 									<input type="checkbox" id="brand-6">
 									<label for="brand-6">
 										<span></span>
-										SONY
+										Toyota
 										<small>(755)</small>
 									</label>
 								</div>
@@ -355,6 +385,7 @@
 						<!-- /aside Widget -->
 
 						<!-- aside Widget -->
+						<!-- 
 						<div class="aside">
 							<h3 class="aside-title">Top selling</h3>
 							<div class="product-widget">
@@ -362,9 +393,9 @@
 									<img src="./img/product01.png" alt="">
 								</div>
 								<div class="product-body">
-									<p class="product-category">Category</p>
+									
 									<h3 class="product-name"><a href="#">product name goes here</a></h3>
-									<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+									
 								</div>
 							</div>
 
@@ -373,9 +404,9 @@
 									<img src="./img/product02.png" alt="">
 								</div>
 								<div class="product-body">
-									<p class="product-category">Category</p>
+									
 									<h3 class="product-name"><a href="#">product name goes here</a></h3>
-									<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+									
 								</div>
 							</div>
 
@@ -384,12 +415,14 @@
 									<img src="./img/product03.png" alt="">
 								</div>
 								<div class="product-body">
-									<p class="product-category">Category</p>
+									
 									<h3 class="product-name"><a href="#">product name goes here</a></h3>
-									<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+									
 								</div>
 							</div>
 						</div>
+
+						-->
 						<!-- /aside Widget -->
 					</div>
 					<!-- /ASIDE -->
@@ -397,29 +430,32 @@
 					<!-- STORE -->
 					<div id="store" class="col-md-9">
 						<!-- store top filter -->
+						<!-- 
 						<div class="store-filter clearfix">
 							<div class="store-sort">
 								<label>
-									Sort By:
+									Сортировка по:
 									<select class="input-select">
-										<option value="0">Popular</option>
+										<option value="0">Популярности</option>
 										<option value="1">Position</option>
 									</select>
 								</label>
-
+								
 								<label>
-									Show:
+									Показать:
 									<select class="input-select">
 										<option value="0">20</option>
 										<option value="1">50</option>
 									</select>
 								</label>
+								
 							</div>
 							<ul class="store-grid">
 								<li class="active"><i class="fa fa-th"></i></li>
 								<li><a href="#"><i class="fa fa-th-list"></i></a></li>
 							</ul>
 						</div>
+						-->
 						<!-- /store top filter -->
 
 						<!-- store products -->
@@ -430,29 +466,21 @@
 									<div class="product-img">
 										<img src="./img/product01.png" alt="">
 										<div class="product-label">
-											<span class="sale">-30%</span>
+											<span class="sale">-40%</span>
 											<span class="new">NEW</span>
 										</div>
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										
+										<h3 class="product-name"><a href="#">Honda</a></h3>
+										
 										<div class="product-rating">
 											<i class="fa fa-star"></i>
 											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-										</div>
-										<div class="product-btns">
-											<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">add to wishlist</span></button>
-											<button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">add to compare</span></button>
-											<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">quick view</span></button>
 										</div>
 									</div>
 									<div class="add-to-cart">
-										<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
+										<button class="add-to-cart-btn"><a href="index.html">Перейти</a></button>
 									</div>
 								</div>
 							</div>
@@ -468,9 +496,9 @@
 										</div>
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										
+										<h3 class="product-name"><a href="#">BMW</a></h3>
+										
 										<div class="product-rating">
 											<i class="fa fa-star"></i>
 											<i class="fa fa-star"></i>
@@ -478,14 +506,9 @@
 											<i class="fa fa-star"></i>
 											<i class="fa fa-star-o"></i>
 										</div>
-										<div class="product-btns">
-											<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">add to wishlist</span></button>
-											<button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">add to compare</span></button>
-											<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">quick view</span></button>
-										</div>
 									</div>
 									<div class="add-to-cart">
-										<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
+										<button class="add-to-cart-btn"><a href="index.html">Перейти</a></button>
 									</div>
 								</div>
 							</div>
@@ -500,19 +523,18 @@
 										<img src="./img/product03.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										
+										<h3 class="product-name"><a href="#">Mercedes-Benz</a></h3>
+										
+										
 										<div class="product-rating">
-										</div>
-										<div class="product-btns">
-											<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">add to wishlist</span></button>
-											<button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">add to compare</span></button>
-											<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">quick view</span></button>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
 										</div>
 									</div>
 									<div class="add-to-cart">
-										<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
+										<button class="add-to-cart-btn"><a href="index.html">Перейти</a></button>
 									</div>
 								</div>
 							</div>
@@ -527,19 +549,17 @@
 										<img src="./img/product04.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										
+										<h3 class="product-name"><a href="#">Toyota</a></h3>
+										
 										<div class="product-rating">
-										</div>
-										<div class="product-btns">
-											<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">add to wishlist</span></button>
-											<button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">add to compare</span></button>
-											<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">quick view</span></button>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
 										</div>
 									</div>
 									<div class="add-to-cart">
-										<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
+										<button class="add-to-cart-btn"><a href="index.html">Перейти</a></button>
 									</div>
 								</div>
 							</div>
@@ -554,19 +574,15 @@
 										<img src="./img/product05.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										
+										<h3 class="product-name"><a href="#">Nissan</a></h3>
+										
 										<div class="product-rating">
-										</div>
-										<div class="product-btns">
-											<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">add to wishlist</span></button>
-											<button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">add to compare</span></button>
-											<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">quick view</span></button>
+											<i class="fa fa-star"></i>
 										</div>
 									</div>
 									<div class="add-to-cart">
-										<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
+										<button class="add-to-cart-btn"><a href="index.html">Перейти</a></button>
 									</div>
 								</div>
 							</div>
@@ -577,26 +593,22 @@
 								<div class="product">
 									<div class="product-img">
 										<img src="./img/product06.png" alt="">
+										<div class="product-label">
+											<span class="new">NEW</span>
+										</div>
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										
+										<h3 class="product-name"><a href="#">Opel</a></h3>
+										
 										<div class="product-rating">
 											<i class="fa fa-star"></i>
 											<i class="fa fa-star"></i>
 											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star-o"></i>
-										</div>
-										<div class="product-btns">
-											<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">add to wishlist</span></button>
-											<button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">add to compare</span></button>
-											<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">quick view</span></button>
 										</div>
 									</div>
 									<div class="add-to-cart">
-										<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
+										<button class="add-to-cart-btn"><a href="index.html">Перейти</a></button>
 									</div>
 								</div>
 							</div>
@@ -611,9 +623,9 @@
 										<img src="./img/product07.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										
+										<h3 class="product-name"><a href="#">Tesla</a></h3>
+										
 										<div class="product-rating">
 											<i class="fa fa-star"></i>
 											<i class="fa fa-star"></i>
@@ -621,14 +633,9 @@
 											<i class="fa fa-star"></i>
 											<i class="fa fa-star"></i>
 										</div>
-										<div class="product-btns">
-											<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">add to wishlist</span></button>
-											<button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">add to compare</span></button>
-											<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">quick view</span></button>
-										</div>
 									</div>
 									<div class="add-to-cart">
-										<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
+										<button class="add-to-cart-btn"><a href="index.html">Перейти</a></button>
 									</div>
 								</div>
 							</div>
@@ -639,21 +646,20 @@
 								<div class="product">
 									<div class="product-img">
 										<img src="./img/product08.png" alt="">
+										<div class="product-label">
+											<span class="sale">-40%</span>
+											<span class="new">NEW</span>
+										</div>
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h3 class="product-name"><a href="#">Dacia</a></h3>
+										
 										<div class="product-rating">
-										</div>
-										<div class="product-btns">
-											<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">add to wishlist</span></button>
-											<button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">add to compare</span></button>
-											<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">quick view</span></button>
+											<i class="fa fa-star"></i>
 										</div>
 									</div>
 									<div class="add-to-cart">
-										<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
+										<button class="add-to-cart-btn"><a href="index.html">Перейти</a></button>
 									</div>
 								</div>
 							</div>
@@ -668,19 +674,17 @@
 										<img src="./img/product09.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										
+										<h3 class="product-name"><a href="#">Renault</a></h3>
+										
 										<div class="product-rating">
-										</div>
-										<div class="product-btns">
-											<button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">add to wishlist</span></button>
-											<button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">add to compare</span></button>
-											<button class="quick-view"><i class="fa fa-eye"></i><span class="tooltipp">quick view</span></button>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
 										</div>
 									</div>
 									<div class="add-to-cart">
-										<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
+										<button class="add-to-cart-btn"><a href="index.html">Перейти</a></button>
 									</div>
 								</div>
 							</div>
@@ -690,7 +694,8 @@
 
 						<!-- store bottom filter -->
 						<div class="store-filter clearfix">
-							<span class="store-qty">Showing 20-100 products</span>
+							<span class="store-qty">Showing all products</span>
+							<!--
 							<ul class="store-pagination">
 								<li class="active">1</li>
 								<li><a href="#">2</a></li>
@@ -698,6 +703,7 @@
 								<li><a href="#">4</a></li>
 								<li><a href="#"><i class="fa fa-angle-right"></i></a></li>
 							</ul>
+							-->
 						</div>
 						<!-- /store bottom filter -->
 					</div>
@@ -717,7 +723,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="newsletter">
-							<p>Sign Up for the <strong>NEWSLETTER</strong></p>
+							<p>Подпишись на<strong>РАССЫЛКУ</strong></p>
 							<form>
 								<input class="input" type="email" placeholder="Enter Your Email">
 								<button class="newsletter-btn"><i class="fa fa-envelope"></i> Subscribe</button>
